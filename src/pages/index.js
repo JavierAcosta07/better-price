@@ -20,6 +20,7 @@ export default function Home() {
               </div>
             </div>
                <br/>
+                <center>
                   <div className='flex'>
                                <div className='flex mx-12'>
                                       <div className='container block-line flex'>
@@ -63,7 +64,8 @@ export default function Home() {
                                                     </div>
                                                 </div>
                                             </div>                                   
-                                    </div>  
+                                    </div> 
+                                  </center> 
     <Bubble/> {/* Burbujas de animacion provienen de  './components/Bubble' */}
   </>        
   )
